@@ -1,0 +1,24 @@
+C:\Users\weule\source\repos\Trabalho POO - Eleição\Trabalho POO - Eleição\bin\Debug\Trabalho POO - Eleição.exe.config
+C:\Users\weule\source\repos\Trabalho POO - Eleição\Trabalho POO - Eleição\bin\Debug\Trabalho POO - Eleição.exe
+C:\Users\weule\source\repos\Trabalho POO - Eleição\Trabalho POO - Eleição\bin\Debug\Trabalho POO - Eleição.pdb
+C:\Users\weule\source\repos\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho POO - Eleição.csproj.AssemblyReference.cache
+C:\Users\weule\source\repos\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho POO - Eleição.csproj.SuggestedBindingRedirects.cache
+C:\Users\weule\source\repos\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho_POO___Eleição.Properties.Resources.resources
+C:\Users\weule\source\repos\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho POO - Eleição.csproj.GenerateResource.cache
+C:\Users\weule\source\repos\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho POO - Eleição.csproj.CoreCompileInputs.cache
+C:\Users\weule\source\repos\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho POO - Eleição.exe
+C:\Users\weule\source\repos\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho POO - Eleição.pdb
+C:\Users\weule\source\repos\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho_POO___Eleição.TelaCadastroEleicao.resources
+C:\Users\weule\source\repos\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho_POO___Eleição.TelaPrimaria.resources
+C:\Users\Thanriel\Downloads\Trabalho POO - Eleição\Trabalho POO - Eleição\bin\Debug\Trabalho POO - Eleição.exe.config
+C:\Users\Thanriel\Downloads\Trabalho POO - Eleição\Trabalho POO - Eleição\bin\Debug\Trabalho POO - Eleição.exe
+C:\Users\Thanriel\Downloads\Trabalho POO - Eleição\Trabalho POO - Eleição\bin\Debug\Trabalho POO - Eleição.pdb
+C:\Users\Thanriel\Downloads\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho POO - Eleição.csproj.AssemblyReference.cache
+C:\Users\Thanriel\Downloads\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho POO - Eleição.csproj.SuggestedBindingRedirects.cache
+C:\Users\Thanriel\Downloads\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho_POO___Eleição.TelaCadastroEleicao.resources
+C:\Users\Thanriel\Downloads\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho_POO___Eleição.TelaPrimaria.resources
+C:\Users\Thanriel\Downloads\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho_POO___Eleição.Properties.Resources.resources
+C:\Users\Thanriel\Downloads\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho POO - Eleição.csproj.GenerateResource.cache
+C:\Users\Thanriel\Downloads\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho POO - Eleição.csproj.CoreCompileInputs.cache
+C:\Users\Thanriel\Downloads\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho POO - Eleição.exe
+C:\Users\Thanriel\Downloads\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho POO - Eleição.pdb
