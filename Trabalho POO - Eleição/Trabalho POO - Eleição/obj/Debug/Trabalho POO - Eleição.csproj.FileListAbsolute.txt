@@ -22,3 +22,18 @@ C:\Users\Thanriel\Downloads\Trabalho POO - Eleição\Trabalho POO - Eleição\ob
 C:\Users\Thanriel\Downloads\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho POO - Eleição.csproj.CoreCompileInputs.cache
 C:\Users\Thanriel\Downloads\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho POO - Eleição.exe
 C:\Users\Thanriel\Downloads\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho POO - Eleição.pdb
+E:\Codes\Codes\POO\Trabalho Eleições\Trabalho-POO-Eleicoes\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho POO - Eleição.csproj.AssemblyReference.cache
+E:\Codes\Codes\POO\Trabalho Eleições\Trabalho-POO-Eleicoes\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho POO - Eleição.csproj.SuggestedBindingRedirects.cache
+E:\Codes\Codes\POO\Trabalho Eleições\Trabalho-POO-Eleicoes\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho_POO___Eleição.TelaCadastroCandidato.resources
+E:\Codes\Codes\POO\Trabalho Eleições\Trabalho-POO-Eleicoes\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho_POO___Eleição.TelaCadastroEleicao.resources
+E:\Codes\Codes\POO\Trabalho Eleições\Trabalho-POO-Eleicoes\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho_POO___Eleição.Properties.Resources.resources
+E:\Codes\Codes\POO\Trabalho Eleições\Trabalho-POO-Eleicoes\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho_POO___Eleição.TelaCadastroPartidos.resources
+E:\Codes\Codes\POO\Trabalho Eleições\Trabalho-POO-Eleicoes\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho_POO___Eleição.TelaPrimaria.resources
+E:\Codes\Codes\POO\Trabalho Eleições\Trabalho-POO-Eleicoes\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho_POO___Eleição.TelaVotos.resources
+E:\Codes\Codes\POO\Trabalho Eleições\Trabalho-POO-Eleicoes\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho POO - Eleição.csproj.GenerateResource.cache
+E:\Codes\Codes\POO\Trabalho Eleições\Trabalho-POO-Eleicoes\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho POO - Eleição.csproj.CoreCompileInputs.cache
+E:\Codes\Codes\POO\Trabalho Eleições\Trabalho-POO-Eleicoes\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho POO - Eleição.exe
+E:\Codes\Codes\POO\Trabalho Eleições\Trabalho-POO-Eleicoes\Trabalho POO - Eleição\Trabalho POO - Eleição\obj\Debug\Trabalho POO - Eleição.pdb
+E:\Codes\Codes\POO\Trabalho Eleições\Trabalho-POO-Eleicoes\Trabalho POO - Eleição\Trabalho POO - Eleição\bin\Debug\Trabalho POO - Eleição.exe.config
+E:\Codes\Codes\POO\Trabalho Eleições\Trabalho-POO-Eleicoes\Trabalho POO - Eleição\Trabalho POO - Eleição\bin\Debug\Trabalho POO - Eleição.exe
+E:\Codes\Codes\POO\Trabalho Eleições\Trabalho-POO-Eleicoes\Trabalho POO - Eleição\Trabalho POO - Eleição\bin\Debug\Trabalho POO - Eleição.pdb

@@ -1,19 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Trabalho_POO___Eleição.Entidades
+﻿namespace Trabalho_POO___Eleição.Entidades
 {
-    internal class Candidato
+    public  class Candidato
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
 
         public string Nome { get; set; }
 
         public string Partido { get; set; }
 
         public int Idade { get; set; }
+
+        public string Tipo { get; set; }
+
+        public Candidato( 
+            int Id,
+            string Nome,
+            string Partido,
+            int Idade,
+            string Tipo)
+        {
+            this.Id = Id;
+            this.Nome = Nome;
+            this.Partido = Partido;
+            this.Idade = Idade;
+            this.Tipo = Tipo;
+        }
     }
 }

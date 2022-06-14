@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Trabalho_POO___Eleição.Entidades
 {
-    public internal class Eleicao
+    public class Eleicao
     {
         public int Id { get; set; }
 

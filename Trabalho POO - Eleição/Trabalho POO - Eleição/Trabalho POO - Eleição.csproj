@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Entidades\Candidato.cs" />
     <Compile Include="Entidades\Eleicao.cs" />
+    <Compile Include="Entidades\Listas.cs" />
     <Compile Include="Entidades\Partido.cs" />
     <Compile Include="Entidades\Voto.cs" />
     <Compile Include="TelaCadastroCandidato.cs">

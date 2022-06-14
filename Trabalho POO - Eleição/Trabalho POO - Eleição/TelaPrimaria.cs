@@ -25,12 +25,25 @@ namespace Trabalho_POO___Eleição
 
         private void btnInserirVoto_Click(object sender, EventArgs e)
         {
-
+            TelaVotos tela = new TelaVotos();
+            tela.Show();
         }
 
         private void btnFinalizarEleicao_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCadastrarPartido_Click(object sender, EventArgs e)
+        {
+            TelaCadastroPartidos tela = new TelaCadastroPartidos();
+            tela.Show();
+        }
+
+        private void btnCadastrarCandidato_Click(object sender, EventArgs e)
+        {
+            TelaCadastroCandidato tela = new TelaCadastroCandidato();
+            tela.Show();
         }
     }
 }

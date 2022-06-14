@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using Trabalho_POO___Eleição.Entidades;
 
 namespace Trabalho_POO___Eleição
 {
@@ -19,7 +13,19 @@ namespace Trabalho_POO___Eleição
 
         private void button1_Click(object sender, EventArgs e)
         {
+            try
+            {
+                TelaCadastroCandidato tela = new TelaCadastroCandidato();
+                Candidato candidato = new Candidato(1, this.nomeCandidato.Text, this.partidoCandidato.Text, int.Parse(this.idadeCandidato.Text), this.tipoCandidato.Text);
+                Listas.listaCandidato.Add(candidato);
+                MessageBox.Show("Candidato cadastrado com sucesso");
 
+                tela.Dispose();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao cadastrar candidato: {ex}");
+            }
         }
     }
 }

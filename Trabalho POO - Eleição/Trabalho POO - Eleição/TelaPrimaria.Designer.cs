@@ -37,7 +37,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.btnCadastrarCandidato = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnCadastrarPartido = new System.Windows.Forms.Button();
             this.Cadastrar = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -103,7 +103,7 @@
             this.btnFinalizarEleicao.Name = "btnFinalizarEleicao";
             this.btnFinalizarEleicao.Size = new System.Drawing.Size(75, 23);
             this.btnFinalizarEleicao.TabIndex = 11;
-            this.btnFinalizarEleicao.Text = "Registrar Eleição";
+            this.btnFinalizarEleicao.Text = "Finalizar";
             this.btnFinalizarEleicao.UseVisualStyleBackColor = true;
             this.btnFinalizarEleicao.Click += new System.EventHandler(this.btnFinalizarEleicao_Click);
             // 
@@ -127,6 +127,7 @@
             this.btnCadastrarCandidato.TabIndex = 13;
             this.btnCadastrarCandidato.Text = "Cadastrar";
             this.btnCadastrarCandidato.UseVisualStyleBackColor = true;
+            this.btnCadastrarCandidato.Click += new System.EventHandler(this.btnCadastrarCandidato_Click);
             // 
             // label2
             // 
@@ -139,15 +140,16 @@
             this.label2.TabIndex = 12;
             this.label2.Text = "Cadastrar Candidato";
             // 
-            // button2
+            // btnCadastrarPartido
             // 
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(688, 252);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Registrar Eleição";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnCadastrarPartido.ForeColor = System.Drawing.Color.Black;
+            this.btnCadastrarPartido.Location = new System.Drawing.Point(688, 252);
+            this.btnCadastrarPartido.Name = "btnCadastrarPartido";
+            this.btnCadastrarPartido.Size = new System.Drawing.Size(75, 23);
+            this.btnCadastrarPartido.TabIndex = 15;
+            this.btnCadastrarPartido.Text = "Cadastrar";
+            this.btnCadastrarPartido.UseVisualStyleBackColor = true;
+            this.btnCadastrarPartido.Click += new System.EventHandler(this.btnCadastrarPartido_Click);
             // 
             // Cadastrar
             // 
@@ -156,9 +158,9 @@
             this.Cadastrar.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Cadastrar.Location = new System.Drawing.Point(670, 212);
             this.Cadastrar.Name = "Cadastrar";
-            this.Cadastrar.Size = new System.Drawing.Size(118, 19);
+            this.Cadastrar.Size = new System.Drawing.Size(121, 19);
             this.Cadastrar.TabIndex = 14;
-            this.Cadastrar.Text = "Registrar Eleição";
+            this.Cadastrar.Text = "Cadastrar Partido";
             // 
             // TelaPrimaria
             // 
@@ -166,7 +168,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnCadastrarPartido);
             this.Controls.Add(this.Cadastrar);
             this.Controls.Add(this.btnCadastrarCandidato);
             this.Controls.Add(this.label2);
@@ -196,7 +198,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnCadastrarCandidato;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnCadastrarPartido;
         private System.Windows.Forms.Label Cadastrar;
     }
 }
