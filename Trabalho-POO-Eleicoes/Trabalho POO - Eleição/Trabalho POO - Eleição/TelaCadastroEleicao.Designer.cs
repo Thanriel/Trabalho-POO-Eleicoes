@@ -35,6 +35,8 @@
             this.anoEleicao = new System.Windows.Forms.TextBox();
             this.T = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.nomeEleicao = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -74,7 +76,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe MDL2 Assets", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(395, 139);
+            this.label4.Location = new System.Drawing.Point(395, 200);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(34, 19);
             this.label4.TabIndex = 10;
@@ -82,7 +84,7 @@
             // 
             // anoEleicao
             // 
-            this.anoEleicao.Location = new System.Drawing.Point(310, 185);
+            this.anoEleicao.Location = new System.Drawing.Point(310, 240);
             this.anoEleicao.Name = "anoEleicao";
             this.anoEleicao.Size = new System.Drawing.Size(208, 20);
             this.anoEleicao.TabIndex = 9;
@@ -93,7 +95,7 @@
             this.T.Items.AddRange(new object[] {
             "Prefeito",
             "Vereador"});
-            this.T.Location = new System.Drawing.Point(310, 279);
+            this.T.Location = new System.Drawing.Point(310, 305);
             this.T.Name = "T";
             this.T.Size = new System.Drawing.Size(211, 21);
             this.T.TabIndex = 11;
@@ -103,11 +105,29 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe MDL2 Assets", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label5.Location = new System.Drawing.Point(395, 243);
+            this.label5.Location = new System.Drawing.Point(395, 273);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(37, 19);
             this.label5.TabIndex = 12;
             this.label5.Text = "Tipo";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe MDL2 Assets", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label3.Location = new System.Drawing.Point(395, 126);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(46, 19);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Nome";
+            // 
+            // nomeEleicao
+            // 
+            this.nomeEleicao.Location = new System.Drawing.Point(310, 163);
+            this.nomeEleicao.Name = "nomeEleicao";
+            this.nomeEleicao.Size = new System.Drawing.Size(208, 20);
+            this.nomeEleicao.TabIndex = 14;
             // 
             // TelaCadastroEleicao
             // 
@@ -115,6 +135,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.nomeEleicao);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.T);
             this.Controls.Add(this.label4);
@@ -138,6 +160,8 @@
         private System.Windows.Forms.TextBox anoEleicao;
         private System.Windows.Forms.ComboBox T;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox nomeEleicao;
     }
 }
 

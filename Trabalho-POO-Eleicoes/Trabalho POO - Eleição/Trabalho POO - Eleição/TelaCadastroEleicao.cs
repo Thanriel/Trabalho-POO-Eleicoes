@@ -22,7 +22,7 @@ namespace Trabalho_POO___Eleição
         {
             try 
             {
-                Eleicao eleicao = new Eleicao(Eleicao.ContadorId, int.Parse(this.anoEleicao.Text), this.T.Text);
+                Eleicao eleicao = new Eleicao(Eleicao.ContadorId,this.nomeEleicao.Text,int.Parse(this.anoEleicao.Text), this.T.Text);
                 Listas.listaEleicao.Add(eleicao);
                 TelaCadastroEleicao tela = new TelaCadastroEleicao();
 

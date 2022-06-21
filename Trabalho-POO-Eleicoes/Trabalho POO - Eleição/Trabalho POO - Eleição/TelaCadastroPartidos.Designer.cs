@@ -37,7 +37,7 @@
             // 
             // btnCadastroPartido
             // 
-            this.btnCadastroPartido.Location = new System.Drawing.Point(357, 250);
+            this.btnCadastroPartido.Location = new System.Drawing.Point(357, 268);
             this.btnCadastroPartido.Name = "btnCadastroPartido";
             this.btnCadastroPartido.Size = new System.Drawing.Size(75, 23);
             this.btnCadastroPartido.TabIndex = 15;

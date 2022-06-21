@@ -48,6 +48,10 @@ namespace Trabalho_POO___Eleição
 
             escritorVotos.Close();
             saidaVotos.Close();
+
+            TelaFinalização tela = new TelaFinalização();
+            tela.Show();
+
         }
 
         private void btnCadastrarPartido_Click(object sender, EventArgs e)

@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Trabalho POO - Eleição",
-    "\\Trabalho POO - Eleição\\Trabalho POO - Eleição",
-    "\\Trabalho POO - Eleição\\Trabalho POO - Eleição\\Entidades"
+    "\\Trabalho-POO-Eleicoes",
+    "\\Trabalho-POO-Eleicoes\\Trabalho POO - Eleição",
+    "\\Trabalho-POO-Eleicoes\\Trabalho POO - Eleição\\Trabalho POO - Eleição"
   ],
-  "SelectedNode": "\\Trabalho POO - Eleição\\Trabalho POO - Eleição\\TelaCadastroCandidato.cs",
+  "SelectedNode": "\\Trabalho-POO-Eleicoes\\Trabalho POO - Eleição\\Trabalho POO - Eleição\\TelaVotos.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -71,6 +71,12 @@
     <Compile Include="TelaCadastroPartidos.Designer.cs">
       <DependentUpon>TelaCadastroPartidos.cs</DependentUpon>
     </Compile>
+    <Compile Include="TelaFinalização.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaFinalização.Designer.cs">
+      <DependentUpon>TelaFinalização.cs</DependentUpon>
+    </Compile>
     <Compile Include="TelaPrimaria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +106,9 @@
     </Compile>
     <EmbeddedResource Include="TelaCadastroPartidos.resx">
       <DependentUpon>TelaCadastroPartidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaFinalização.resx">
+      <DependentUpon>TelaFinalização.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TelaPrimaria.resx">
       <DependentUpon>TelaPrimaria.cs</DependentUpon>
