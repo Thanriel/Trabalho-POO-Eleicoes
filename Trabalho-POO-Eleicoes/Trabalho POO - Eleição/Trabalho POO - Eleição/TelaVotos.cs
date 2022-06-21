@@ -22,9 +22,9 @@ namespace Trabalho_POO___Eleição
 
         public void GeraComboxEleicao()
         {
-            foreach (Candidato p in Listas.listaCandidato)
+            foreach (Eleicao p in Listas.listaEleicao)
             {
-                this.candidatoVoto.Items.Add(p.Nome);
+                this.eleicaoVoto.Items.Add(p.Nome);
             }
         }
 
@@ -54,6 +54,11 @@ namespace Trabalho_POO___Eleição
 
                 MessageBox.Show($"Erro ao inserir voto {ex}");
             }
+        }
+
+        private void TelaVotos_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

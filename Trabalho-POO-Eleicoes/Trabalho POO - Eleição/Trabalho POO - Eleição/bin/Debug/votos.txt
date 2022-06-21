@@ -1,17 +1,7 @@
 Eleição;TipoVoto;Candidato
-Teste;Normal;Weuler
-Teste;Normal;Weuler
-Teste;Normal;Weuler
-Teste;Normal;Weuler
-Teste;Normal;Thales
-Teste;Normal;Thales
-Teste;Normal;Thales
-Teste;Normal;Thales
-Teste;Normal;Thales
-Teste;Normal;Thales
-Teste;Normal;Thales
-Teste;Normal;Thales
-Teste;Normal;Thales
-Teste;Normal;Thales
-Teste;Normal;Thales
-Teste;Normal;Thales
+Prefeito Betim;Normal;asdwd
+Prefeito Betim;Nulo;asdwd
+Prefeito Betim;Nulo;asdwd
+Prefeito Betim;Branco;asdwd
+Prefeito Betim;Branco;asdwd
+Prefeito Betim;Branco;asdwd

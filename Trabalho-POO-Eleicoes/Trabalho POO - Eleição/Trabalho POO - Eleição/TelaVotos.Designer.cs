@@ -101,6 +101,10 @@
             // comboBoxVoto
             // 
             this.comboBoxVoto.FormattingEnabled = true;
+            this.comboBoxVoto.Items.AddRange(new object[] {
+            "Normal",
+            "Nulo",
+            "Branco"});
             this.comboBoxVoto.Location = new System.Drawing.Point(294, 264);
             this.comboBoxVoto.Name = "comboBoxVoto";
             this.comboBoxVoto.Size = new System.Drawing.Size(169, 21);
@@ -145,6 +149,7 @@
             this.Controls.Add(this.label1);
             this.Name = "TelaVotos";
             this.Text = "Tela Votos";
+            this.Load += new System.EventHandler(this.TelaVotos_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

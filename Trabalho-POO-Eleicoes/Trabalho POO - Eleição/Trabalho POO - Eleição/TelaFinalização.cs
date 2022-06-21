@@ -21,8 +21,8 @@ namespace Trabalho_POO___Eleição
 
         private void btnFinalizarEleicao_Click(object sender, EventArgs e)
         {
-            this.ContaVotosBrancos(comboBoxEleicaoFin.Text);
-            this.ContaVotosNulos(comboBoxEleicaoFin.Text);
+            MessageBox.Show($"Votos em Branco: {this.ContaVotosBrancos(comboBoxEleicaoFin.Text)}");
+            MessageBox.Show($"Votos Nulos: {this.ContaVotosNulos(comboBoxEleicaoFin.Text)}");
             this.ContagemVotosCandidato(comboBoxEleicaoFin.Text);
         }
 
@@ -55,7 +55,7 @@ namespace Trabalho_POO___Eleição
 
             foreach (Voto voto in Listas.listaVoto)
             {
-                if (voto.TipoVoto.Equals("Branco") && voto.Eleicao.Equals(Eleicao))
+                if (voto.TipoVoto.Equals("Nulo") && voto.Eleicao.Equals(Eleicao))
                 {
                     votoNulo++;
                 }
@@ -82,29 +82,41 @@ namespace Trabalho_POO___Eleição
         {
             var qtdCandidato = Listas.listaCandidato.Count();
             int[] votos = new int[qtdCandidato];
-            int i = 0;
+            int i;
 
             foreach (Voto voto in Listas.listaVoto)
             {
                 if (voto.Eleicao.Equals(eleicao))
                 {
-                    foreach (Candidato candidato in Listas.listaCandidato)
+                    if(voto.TipoVoto!="Branco" && voto.TipoVoto!="Nulo")
                     {
-                        if (voto.Candidato.Equals(candidato.Nome))
+                        foreach (Candidato candidato in Listas.listaCandidato)
                         {
-                            votos[candidato.Id - 1]++;
+                            if (voto.Candidato.Equals(candidato.Nome))
+                            {
+                                votos[candidato.Id - 1]++;
+                            }
                         }
                     }
                 }
             }
             string CandidatoVencedor = "";
-            foreach (Candidato candidato1 in Listas.listaCandidato)
-            {
-                if(candidato1.Id == this.Vencedor(votos))
-                    CandidatoVencedor = candidato1.Nome;
-            }
+            i = this.Vencedor(votos);
 
-            MessageBox.Show($"Candidato Vencedor {CandidatoVencedor}");
+            if (i >= 0)
+            {
+                foreach (Candidato candidato1 in Listas.listaCandidato)
+                {
+                    if (candidato1.Id == i)
+                        CandidatoVencedor = candidato1.Nome;
+                }
+
+                MessageBox.Show($"Candidato Vencedor {CandidatoVencedor}");
+            }
+            else
+            {
+                MessageBox.Show($"Houve um empate, deve haver um segundo turno!");
+            }
         }
 
         public int Vencedor(int[] votos)
@@ -112,16 +124,19 @@ namespace Trabalho_POO___Eleição
             int count = 0;
             int qtd_votos = 0;
 
-            for (int i = 0; i < votos.Length; i++)
+            for (int i = 1; i <= votos.Length; i++)
             {
-                if (votos[i] > qtd_votos)
+                if (votos[i-1] == qtd_votos)
+                    count = -1;
+
+                if (votos[i-1] > qtd_votos)
                 {
-                    qtd_votos = votos[i];
+                    qtd_votos = votos[i-1];
                     count = i;
                 }
             }
 
-            return count+1;
+            return count;
         }
     }
 }
