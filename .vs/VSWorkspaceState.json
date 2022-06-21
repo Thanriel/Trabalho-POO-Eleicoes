@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Trabalho POO - Eleição",
+    "\\Trabalho POO - Eleição\\Trabalho POO - Eleição",
+    "\\Trabalho POO - Eleição\\Trabalho POO - Eleição\\Entidades"
   ],
-  "SelectedNode": "\\Trabalho POO - Eleição.sln",
+  "SelectedNode": "\\Trabalho POO - Eleição\\Trabalho POO - Eleição\\TelaCadastroCandidato.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Trabalho_POO___Eleição.Entidades;
 
 namespace Trabalho_POO___Eleição
 {
@@ -20,11 +21,20 @@ namespace Trabalho_POO___Eleição
         private void btnVoto_Click(object sender, EventArgs e)
         {
 
-        }
+            try
+            {
+                TelaVotos tela = new TelaVotos();
+                Voto voto = new Voto(1, this.candidatoVoto.Text, this.eleicaoVoto.Text);
+                Listas.listaVoto.Add(voto);
 
-        private void label2_Click(object sender, EventArgs e)
-        {
+                MessageBox.Show("Voto inserido com sucesso");
+                tela.Dispose();
+            }
+            catch (Exception ex)
+            {
 
+                MessageBox.Show($"Erro ao inserir voto {ex}");
+            }
         }
     }
 }

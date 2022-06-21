@@ -9,6 +9,15 @@ namespace Trabalho_POO___Eleição
         public TelaCadastroCandidato()
         {
             InitializeComponent();
+            GeraCombox();
+        }
+
+        public void GeraCombox()
+        {
+            foreach(Partido p in Listas.listaPartido)
+            {
+                this.partidoCandidato.Items.Add(p.Nome);
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
