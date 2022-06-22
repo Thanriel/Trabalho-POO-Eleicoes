@@ -34,6 +34,7 @@
             this.comboBoxEleicaoFin = new System.Windows.Forms.ComboBox();
             this.btnFinalizarEleicao = new System.Windows.Forms.Button();
             this.comboBoxIdEleicao = new System.Windows.Forms.ComboBox();
+            this.ImportarVotos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -76,13 +77,12 @@
             this.comboBoxEleicaoFin.Name = "comboBoxEleicaoFin";
             this.comboBoxEleicaoFin.Size = new System.Drawing.Size(221, 21);
             this.comboBoxEleicaoFin.TabIndex = 13;
-            this.comboBoxEleicaoFin.SelectedIndexChanged += new System.EventHandler(this.comboBoxEleicaoFin_SelectedIndexChanged);
             this.comboBoxEleicaoFin.TextChanged += new System.EventHandler(this.comboBoxEleicaoFin_TextChanged);
             // 
             // btnFinalizarEleicao
             // 
             this.btnFinalizarEleicao.ForeColor = System.Drawing.Color.Black;
-            this.btnFinalizarEleicao.Location = new System.Drawing.Point(344, 346);
+            this.btnFinalizarEleicao.Location = new System.Drawing.Point(388, 344);
             this.btnFinalizarEleicao.Name = "btnFinalizarEleicao";
             this.btnFinalizarEleicao.Size = new System.Drawing.Size(75, 23);
             this.btnFinalizarEleicao.TabIndex = 14;
@@ -98,12 +98,24 @@
             this.comboBoxIdEleicao.Size = new System.Drawing.Size(121, 21);
             this.comboBoxIdEleicao.TabIndex = 15;
             // 
+            // ImportarVotos
+            // 
+            this.ImportarVotos.ForeColor = System.Drawing.Color.Black;
+            this.ImportarVotos.Location = new System.Drawing.Point(269, 344);
+            this.ImportarVotos.Name = "ImportarVotos";
+            this.ImportarVotos.Size = new System.Drawing.Size(113, 23);
+            this.ImportarVotos.TabIndex = 16;
+            this.ImportarVotos.Text = "Importar Votos";
+            this.ImportarVotos.UseVisualStyleBackColor = true;
+            this.ImportarVotos.Click += new System.EventHandler(this.ImportarVotos_Click);
+            // 
             // TelaFinalização
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.ImportarVotos);
             this.Controls.Add(this.comboBoxIdEleicao);
             this.Controls.Add(this.btnFinalizarEleicao);
             this.Controls.Add(this.comboBoxEleicaoFin);
@@ -126,5 +138,6 @@
         private System.Windows.Forms.ComboBox comboBoxEleicaoFin;
         private System.Windows.Forms.Button btnFinalizarEleicao;
         private System.Windows.Forms.ComboBox comboBoxIdEleicao;
+        private System.Windows.Forms.Button ImportarVotos;
     }
 }

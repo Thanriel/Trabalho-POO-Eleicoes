@@ -1,0 +1,36 @@
+Thales,Prefeito-Betim,PUCMINAS,Normal
+Weuler,Prefeito-Betim,PUCMINAS,Normal
+Weuler,Prefeito-Betim,PUCMINAS,Normal
+Weuler,Prefeito-Betim,PUCMINAS,Normal
+Weuler,Prefeito-Betim,PUCMINAS,Normal
+Weuler,Prefeito-Betim,PUCMINAS,Normal
+Weuler,Prefeito-Betim,PUCMINAS,Normal
+Iago,Prefeito-Betim,PUCMINAS,Normal
+Iago,Prefeito-Betim,PUCMINAS,Normal
+Iago,Prefeito-Betim,PUCMINAS,Normal
+Iago,Prefeito-Betim,PUCMINAS,Normal
+Iago,Prefeito-Betim,PUCMINAS,Normal
+Iago,Prefeito-Betim,PUCMINAS,Normal
+Iago,Prefeito-Betim,PUCMINAS,Normal
+Iago,Prefeito-Betim,PUCMINAS,Normal
+Iago,Prefeito-Betim,PUCMINAS,Normal
+Iago,Prefeito-Betim,PUCMINAS,Normal
+Iago,Prefeito-Betim,PUCMINAS,Normal
+Samuel,Prefeito-Betim,PUCMINAS,Normal
+Samuel,Prefeito-Betim,PUCMINAS,Normal
+Samuel,Prefeito-Betim,PUCMINAS,Normal
+Samuel,Prefeito-Betim,PUCMINAS,Normal
+Samuel,Prefeito-Betim,PUCMINAS,Normal
+Samuel,Prefeito-Betim,PUCMINAS,Normal
+Samuel,Prefeito-Betim,PUCMINAS,Normal
+Samuel,Prefeito-Betim,PUCMINAS,Normal
+  ,  , ,Nulo
+  ,  , ,Nulo
+  ,  , ,Nulo
+  ,  , ,Nulo
+  ,  , ,Nulo
+  ,  , ,Nulo
+  ,  , ,Nulo
+  ,  , ,Branco
+  ,  , ,Branco
+  ,  , ,Branco

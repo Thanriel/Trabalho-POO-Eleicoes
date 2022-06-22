@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,6 +22,22 @@ namespace Trabalho_POO___Eleição
 
         private void btnFinalizarEleicao_Click(object sender, EventArgs e)
         {
+            var path = "C:/Users/weule/source/repos/Trabalho-POO-Eleicoes/Trabalho-POO-Eleicoes/Trabalho POO - Eleição/Trabalho POO - Eleição/votos.txt";
+
+            Stream saidaVotos = File.Open(path, FileMode.Create);
+
+            StreamWriter escritorVotos = new StreamWriter(saidaVotos);
+
+            escritorVotos.WriteLine("Eleição;TipoVoto;Candidato");
+
+            foreach (Voto voto in Listas.listaVoto)
+            {
+                escritorVotos.WriteLine(voto.ToString());
+            }
+
+            escritorVotos.Close();
+            saidaVotos.Close();
+
             MessageBox.Show($"Votos em Branco: {this.ContaVotosBrancos(comboBoxEleicaoFin.Text)}");
             MessageBox.Show($"Votos Nulos: {this.ContaVotosNulos(comboBoxEleicaoFin.Text)}");
             this.ContagemVotosCandidato(comboBoxEleicaoFin.Text);
@@ -71,11 +88,6 @@ namespace Trabalho_POO___Eleição
                 if(eleicao.Nome.Equals(comboBoxEleicaoFin.Text))
                 this.comboBoxIdEleicao.Items.Add(eleicao.Id);
             }
-        }
-
-        private void comboBoxEleicaoFin_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
 
         public void ContagemVotosCandidato(string eleicao)
@@ -137,6 +149,42 @@ namespace Trabalho_POO___Eleição
             }
 
             return count;
+        }
+
+        private void ImportarVotos_Click(object sender, EventArgs e)
+        {
+            var path = "C:/Users/weule/source/repos/Trabalho-POO-Eleicoes/Trabalho-POO-Eleicoes/Trabalho POO - Eleição/Trabalho POO - Eleição/dadosvotos.txt";
+
+            if (File.Exists(path))
+            {
+                Stream entrada = File.Open(path, FileMode.Open);
+
+                StreamReader leitor = new StreamReader(entrada);
+
+                leitor.ReadLine();
+
+                string linha = leitor.ReadLine();
+
+                while (linha != null)
+                {
+                    var dadosLinha = linha.Split(',');
+
+                    if (dadosLinha != null)
+                    {
+                        var votosDoc = new Voto(Voto.ContadorId, dadosLinha[0], dadosLinha[1], dadosLinha[2]);
+
+                        votosDoc.Candidato = dadosLinha[0];
+                        votosDoc.Eleicao = dadosLinha[1];
+                        votosDoc.TipoVoto = dadosLinha[2];
+
+                        Listas.listaVoto.Add(votosDoc);
+                    }
+
+                    linha = leitor.ReadLine();
+                }
+            }
+
+            
         }
     }
 }

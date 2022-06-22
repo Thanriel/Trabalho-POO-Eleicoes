@@ -1,7 +1,2 @@
 Eleição;TipoVoto;Candidato
-Prefeito Betim;Normal;asdwd
-Prefeito Betim;Nulo;asdwd
-Prefeito Betim;Nulo;asdwd
-Prefeito Betim;Branco;asdwd
-Prefeito Betim;Branco;asdwd
-Prefeito Betim;Branco;asdwd
+Prefeito-Betim;Normal;Thales

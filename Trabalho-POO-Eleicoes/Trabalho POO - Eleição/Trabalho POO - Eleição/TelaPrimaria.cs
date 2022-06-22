@@ -33,22 +33,6 @@ namespace Trabalho_POO___Eleição
 
         private void btnFinalizarEleicao_Click(object sender, EventArgs e)
         {
-            var path = "votos.txt";
-
-            Stream saidaVotos = File.Open(path, FileMode.Create);
-
-            StreamWriter escritorVotos = new StreamWriter(saidaVotos);
-
-            escritorVotos.WriteLine("Eleição;TipoVoto;Candidato");
-
-            foreach (Voto voto in Listas.listaVoto)
-            {
-                escritorVotos.WriteLine(voto.ToString());
-            }
-
-            escritorVotos.Close();
-            saidaVotos.Close();
-
             TelaFinalização tela = new TelaFinalização();
             tela.Show();
 
