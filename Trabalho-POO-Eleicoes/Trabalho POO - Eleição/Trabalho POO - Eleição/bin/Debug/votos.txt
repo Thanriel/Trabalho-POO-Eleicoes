@@ -1,2 +1,0 @@
-Eleição;TipoVoto;Candidato
-Prefeito-Betim;Normal;Thales
