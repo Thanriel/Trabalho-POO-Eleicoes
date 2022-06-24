@@ -1,0 +1,7 @@
+Weuler,PartidoA,20,Prefeito
+Thales,PartidoB,22,Prefeito
+Samuel,PartidoC,21,Prefeito
+Vitor,PartidoA,22,Vereador
+Symon,PartidoB,21,Vereador
+Bruno,PartidoC,20,Vereador
+Iago,PartidoA,20,Prefeito

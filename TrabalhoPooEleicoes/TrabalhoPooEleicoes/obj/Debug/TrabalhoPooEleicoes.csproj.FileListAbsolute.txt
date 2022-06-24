@@ -1,0 +1,16 @@
+C:\Users\weule\source\repos\TrabalhoPooEleicoes\TrabalhoPooEleicoes\bin\Debug\TrabalhoPooEleicoes.exe.config
+C:\Users\weule\source\repos\TrabalhoPooEleicoes\TrabalhoPooEleicoes\bin\Debug\TrabalhoPooEleicoes.exe
+C:\Users\weule\source\repos\TrabalhoPooEleicoes\TrabalhoPooEleicoes\bin\Debug\TrabalhoPooEleicoes.pdb
+C:\Users\weule\source\repos\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.csproj.AssemblyReference.cache
+C:\Users\weule\source\repos\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.csproj.SuggestedBindingRedirects.cache
+C:\Users\weule\source\repos\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.Properties.Resources.resources
+C:\Users\weule\source\repos\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.TelaCadastroCandidato.resources
+C:\Users\weule\source\repos\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.TelaCadastroEleicao.resources
+C:\Users\weule\source\repos\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.TelaCadastroPartidos.resources
+C:\Users\weule\source\repos\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.TelaFinalização.resources
+C:\Users\weule\source\repos\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.TelaPrimaria.resources
+C:\Users\weule\source\repos\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.TelaVotos.resources
+C:\Users\weule\source\repos\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.csproj.GenerateResource.cache
+C:\Users\weule\source\repos\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.csproj.CoreCompileInputs.cache
+C:\Users\weule\source\repos\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.exe
+C:\Users\weule\source\repos\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.pdb
