@@ -75,7 +75,6 @@
             this.comboBoxEleicaoFin.Name = "comboBoxEleicaoFin";
             this.comboBoxEleicaoFin.Size = new System.Drawing.Size(221, 21);
             this.comboBoxEleicaoFin.TabIndex = 13;
-            this.comboBoxEleicaoFin.TextChanged += new System.EventHandler(this.comboBoxEleicaoFin_TextChanged);
             // 
             // btnFinalizarEleicao
             // 

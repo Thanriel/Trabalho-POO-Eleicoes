@@ -14,3 +14,19 @@ C:\Users\weule\source\repos\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\Tr
 C:\Users\weule\source\repos\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.csproj.CoreCompileInputs.cache
 C:\Users\weule\source\repos\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.exe
 C:\Users\weule\source\repos\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.pdb
+E:\Repositorios\Trabalho eleitores\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.csproj.AssemblyReference.cache
+E:\Repositorios\Trabalho eleitores\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.csproj.SuggestedBindingRedirects.cache
+E:\Repositorios\Trabalho eleitores\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.Properties.Resources.resources
+E:\Repositorios\Trabalho eleitores\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.TelaCadastroCandidato.resources
+E:\Repositorios\Trabalho eleitores\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.TelaCadastroEleicao.resources
+E:\Repositorios\Trabalho eleitores\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.TelaCadastroPartidos.resources
+E:\Repositorios\Trabalho eleitores\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.TelaFinalização.resources
+E:\Repositorios\Trabalho eleitores\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.TelaPrimaria.resources
+E:\Repositorios\Trabalho eleitores\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.TelaVotos.resources
+E:\Repositorios\Trabalho eleitores\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.csproj.GenerateResource.cache
+E:\Repositorios\Trabalho eleitores\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.csproj.CoreCompileInputs.cache
+E:\Repositorios\Trabalho eleitores\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.exe
+E:\Repositorios\Trabalho eleitores\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.pdb
+E:\Repositorios\Trabalho eleitores\TrabalhoPooEleicoes\TrabalhoPooEleicoes\bin\Debug\TrabalhoPooEleicoes.exe.config
+E:\Repositorios\Trabalho eleitores\TrabalhoPooEleicoes\TrabalhoPooEleicoes\bin\Debug\TrabalhoPooEleicoes.exe
+E:\Repositorios\Trabalho eleitores\TrabalhoPooEleicoes\TrabalhoPooEleicoes\bin\Debug\TrabalhoPooEleicoes.pdb

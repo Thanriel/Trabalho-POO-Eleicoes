@@ -81,15 +81,6 @@ namespace TrabalhoPooEleicoes
             return votoNulo;
         }
 
-        private void comboBoxEleicaoFin_TextChanged(object sender, EventArgs e)
-        {
-            foreach (Eleicao eleicao in Listas.listaEleicao)
-            {
-                if(eleicao.Nome.Equals(comboBoxEleicaoFin.Text))
-                this.comboBoxIdEleicao.Items.Add(eleicao.Id);
-            }
-        }
-
         public void ContagemVotosCandidato(string eleicao)
         {
             var qtdCandidato = Listas.listaCandidato.Count();
