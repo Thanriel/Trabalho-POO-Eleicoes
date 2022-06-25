@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using TrabalhoPooEleicoes.Entidades;
 
@@ -26,7 +19,7 @@ namespace TrabalhoPooEleicoes
             {
                 TelaCadastroPartidos tela = new TelaCadastroPartidos();
                 Partido partido = new Partido(Partido.ContadorId, this.nomePartido.Text);
-                Listas.listaPartido.Add(partido);
+                partido.CadastrarPartido(partido);
 
                 MessageBox.Show("Partido cadastrado com sucesso");
                 Partido.ContadorId++;
@@ -41,31 +34,38 @@ namespace TrabalhoPooEleicoes
 
         private void ImportarPartidos_Click(object sender, EventArgs e)
         {
-            var path = "dadospartidos.txt";
-
-            if (File.Exists(path))
+            try
             {
-                Stream entrada = File.Open(path, FileMode.Open);
+                var path = "dadospartidos.txt";
 
-                StreamReader leitor = new StreamReader(entrada);
-
-                string dadosLinha = leitor.ReadLine();
-
-                while (dadosLinha != null)
+                if (File.Exists(path))
                 {
-                    var partidosDoc = new Partido(
-                        Partido.ContadorId,
-                        dadosLinha);
+                    Stream entrada = File.Open(path, FileMode.Open);
 
-                    Listas.listaPartido.Add(partidosDoc);
-                    Partido.ContadorId++;
-                    dadosLinha = leitor.ReadLine();
+                    StreamReader leitor = new StreamReader(entrada);
+
+                    string dadosLinha = leitor.ReadLine();
+
+                    while (dadosLinha != null)
+                    {
+                        var partidosDoc = new Partido(
+                            Partido.ContadorId,
+                            dadosLinha);
+
+                        Listas.listaPartido.Add(partidosDoc);
+                        Partido.ContadorId++;
+                        dadosLinha = leitor.ReadLine();
+                    }
+
+                    leitor.Close();
+                    entrada.Close();
+
+                    MessageBox.Show("Partidos importados com sucesso!");
                 }
-
-                leitor.Close();
-                entrada.Close();
-
-                MessageBox.Show("Partidos importados com sucesso!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao importar partidos: {ex}");
             }
         }
     }

@@ -26,9 +26,18 @@ namespace TrabalhoPooEleicoes
             try
             {
                 TelaCadastroCandidato tela = new TelaCadastroCandidato();
-                Candidato candidato = new Candidato(Candidato.ContadorId, this.nomeCandidato.Text, this.partidoCandidato.Text, int.Parse(this.idadeCandidato.Text), this.tipoCandidato.Text);
-                Listas.listaCandidato.Add(candidato);
+
+                Candidato candidato = new Candidato(
+                    Candidato.ContadorId, 
+                    this.nomeCandidato.Text, 
+                    this.partidoCandidato.Text, 
+                    int.Parse(this.idadeCandidato.Text), 
+                    this.tipoCandidato.Text);
+
+                candidato.CadastrarCandidato(candidato);
+
                 MessageBox.Show("Candidato cadastrado com sucesso");
+
                 Candidato.ContadorId++;
 
                 tela.Dispose();
@@ -41,40 +50,47 @@ namespace TrabalhoPooEleicoes
 
         private void ImportarCandidatos_Click(object sender, EventArgs e)
         {
-            var path = "dadoscandidatos.txt";
-
-            if (File.Exists(path))
+            try
             {
-                Stream entrada = File.Open(path, FileMode.Open);
+                var path = "dadoscandidatos.txt";
 
-                StreamReader leitor = new StreamReader(entrada);
-
-                string linha = leitor.ReadLine();
-
-                while (linha != null)
+                if (File.Exists(path))
                 {
-                    var dadosLinha = linha.Split(',');
+                    Stream entrada = File.Open(path, FileMode.Open);
 
-                    if (dadosLinha != null)
+                    StreamReader leitor = new StreamReader(entrada);
+
+                    string linha = leitor.ReadLine();
+
+                    while (linha != null)
                     {
-                        var candidatosDoc = new Candidato(
-                            Candidato.ContadorId,
-                            dadosLinha[0],
-                            dadosLinha[1],
-                            int.Parse(dadosLinha[2]),
-                            dadosLinha[3]);
+                        var dadosLinha = linha.Split(',');
 
-                        Listas.listaCandidato.Add(candidatosDoc);
-                        Candidato.ContadorId++;
+                        if (dadosLinha != null)
+                        {
+                            var candidatosDoc = new Candidato(
+                                Candidato.ContadorId,
+                                dadosLinha[0],
+                                dadosLinha[1],
+                                int.Parse(dadosLinha[2]),
+                                dadosLinha[3]);
+
+                            Listas.listaCandidato.Add(candidatosDoc);
+                            Candidato.ContadorId++;
+                        }
+
+                        linha = leitor.ReadLine();
                     }
 
-                    linha = leitor.ReadLine();
+                    leitor.Close();
+                    entrada.Close();
+
+                    MessageBox.Show("Candidatos importados com sucesso!");
                 }
-
-                leitor.Close();
-                entrada.Close();
-
-                MessageBox.Show("Candidatos importados com sucesso!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao importar os candidatos: {ex}");
             }
         }
     }

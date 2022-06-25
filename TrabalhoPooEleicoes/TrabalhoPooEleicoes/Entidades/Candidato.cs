@@ -1,4 +1,8 @@
-﻿namespace TrabalhoPooEleicoes.Entidades
+﻿using System;
+using System.IO;
+using System.Windows.Forms;
+
+namespace TrabalhoPooEleicoes.Entidades
 {
     public  class Candidato
     {
@@ -26,6 +30,12 @@
             this.Partido = Partido;
             this.Idade = Idade;
             this.Tipo = Tipo;
+        }
+
+
+        public void CadastrarCandidato(Candidato candidato)
+        {
+            Listas.listaCandidato.Add(candidato);
         }
     }
 }
