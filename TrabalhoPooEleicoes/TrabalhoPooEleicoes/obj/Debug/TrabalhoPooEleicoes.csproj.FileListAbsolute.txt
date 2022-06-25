@@ -30,3 +30,19 @@ E:\Repositorios\Trabalho eleitores\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\D
 E:\Repositorios\Trabalho eleitores\TrabalhoPooEleicoes\TrabalhoPooEleicoes\bin\Debug\TrabalhoPooEleicoes.exe.config
 E:\Repositorios\Trabalho eleitores\TrabalhoPooEleicoes\TrabalhoPooEleicoes\bin\Debug\TrabalhoPooEleicoes.exe
 E:\Repositorios\Trabalho eleitores\TrabalhoPooEleicoes\TrabalhoPooEleicoes\bin\Debug\TrabalhoPooEleicoes.pdb
+E:\Source\TrabalhoPooEleicoes\TrabalhoPooEleicoes\bin\Debug\TrabalhoPooEleicoes.exe.config
+E:\Source\TrabalhoPooEleicoes\TrabalhoPooEleicoes\bin\Debug\TrabalhoPooEleicoes.exe
+E:\Source\TrabalhoPooEleicoes\TrabalhoPooEleicoes\bin\Debug\TrabalhoPooEleicoes.pdb
+E:\Source\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.csproj.AssemblyReference.cache
+E:\Source\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.csproj.SuggestedBindingRedirects.cache
+E:\Source\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.Properties.Resources.resources
+E:\Source\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.TelaCadastroCandidato.resources
+E:\Source\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.TelaCadastroEleicao.resources
+E:\Source\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.TelaCadastroPartidos.resources
+E:\Source\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.TelaFinalização.resources
+E:\Source\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.TelaPrimaria.resources
+E:\Source\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.TelaVotos.resources
+E:\Source\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.csproj.GenerateResource.cache
+E:\Source\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.csproj.CoreCompileInputs.cache
+E:\Source\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.exe
+E:\Source\TrabalhoPooEleicoes\TrabalhoPooEleicoes\obj\Debug\TrabalhoPooEleicoes.pdb
