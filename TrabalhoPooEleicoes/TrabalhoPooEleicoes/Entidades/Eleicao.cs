@@ -1,4 +1,8 @@
-﻿namespace TrabalhoPooEleicoes.Entidades
+﻿using System;
+using System.IO;
+using System.Windows.Forms;
+
+namespace TrabalhoPooEleicoes.Entidades
 {
     public class Eleicao
     {
@@ -18,6 +22,11 @@
             this.Nome = nome;
             this.Ano = ano;
             this.Tipo = tipo;
+        }
+
+        public void CadastrarEleicao(Eleicao eleicao)
+        {
+            Listas.listaEleicao.Add(eleicao);
         }
     }
 }

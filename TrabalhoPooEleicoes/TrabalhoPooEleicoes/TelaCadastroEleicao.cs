@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using TrabalhoPooEleicoes.Entidades;
 
@@ -23,8 +16,14 @@ namespace TrabalhoPooEleicoes
         {
             try 
             {
-                Eleicao eleicao = new Eleicao(Eleicao.ContadorId,this.nomeEleicao.Text,int.Parse(this.anoEleicao.Text), this.T.Text);
-                Listas.listaEleicao.Add(eleicao);
+                Eleicao eleicao = new Eleicao(
+                    Eleicao.ContadorId,
+                    this.nomeEleicao.Text,
+                    int.Parse(this.anoEleicao.Text), 
+                    this.T.Text);
+
+                eleicao.CadastrarEleicao(eleicao);
+
                 TelaCadastroEleicao tela = new TelaCadastroEleicao();
 
 
@@ -37,47 +36,50 @@ namespace TrabalhoPooEleicoes
             {
                 MessageBox.Show($"Erro ao cadastrar eleição: {ex}");
             }
-            
-
-
-
         }
 
         private void ImportarEleicoes_Click(object sender, EventArgs e)
         {
-            var path = "dadoseleicoes.txt";
-
-            if (File.Exists(path))
+            try
             {
-                Stream entrada = File.Open(path, FileMode.Open);
+                var path = "dadoseleicoes.txt";
 
-                StreamReader leitor = new StreamReader(entrada);
-
-                string linha = leitor.ReadLine();
-
-                while (linha != null)
+                if (File.Exists(path))
                 {
-                    var dadosLinha = linha.Split(',');
+                    Stream entrada = File.Open(path, FileMode.Open);
 
-                    if (dadosLinha != null)
+                    StreamReader leitor = new StreamReader(entrada);
+
+                    string linha = leitor.ReadLine();
+
+                    while (linha != null)
                     {
-                        var eleicoesDoc = new Eleicao(
-                            Eleicao.ContadorId,
-                            dadosLinha[0],
-                            int.Parse(dadosLinha[1]),
-                            dadosLinha[2]);
+                        var dadosLinha = linha.Split(',');
 
-                        Listas.listaEleicao.Add(eleicoesDoc);
-                        Eleicao.ContadorId++;
+                        if (dadosLinha != null)
+                        {
+                            var eleicoesDoc = new Eleicao(
+                                Eleicao.ContadorId,
+                                dadosLinha[0],
+                                int.Parse(dadosLinha[1]),
+                                dadosLinha[2]);
+
+                            Listas.listaEleicao.Add(eleicoesDoc);
+                            Eleicao.ContadorId++;
+                        }
+
+                        linha = leitor.ReadLine();
                     }
 
-                    linha = leitor.ReadLine();
+                    leitor.Close();
+                    entrada.Close();
+
+                    MessageBox.Show("Eleições importadas com sucesso!");
                 }
-
-                leitor.Close();
-                entrada.Close();
-
-                MessageBox.Show("Eleições importadas com sucesso!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao importar eleições: {ex}");
             }
         }
     }

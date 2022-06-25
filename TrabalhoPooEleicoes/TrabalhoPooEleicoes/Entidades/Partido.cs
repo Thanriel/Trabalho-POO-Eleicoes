@@ -15,5 +15,10 @@
             this.Id = id;
             this.Nome = nome;
         }
+
+        public void CadastrarPartido(Partido partido)
+        {
+            Listas.listaPartido.Add(partido);
+        }
     }
 }
